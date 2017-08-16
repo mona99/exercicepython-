@@ -1,3 +1,4 @@
+#-*-coding:utf-8 -*-
 i = 1
 
 while i < 20: # Tant que i est inférieure à 20
