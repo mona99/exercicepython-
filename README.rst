@@ -7,4 +7,9 @@ the current program will ask you to enter the speed then the distance once you t
 to run this program you should type:
        .. code:: python
        python {file name}
-        
+<paragraph>
+An exemple of using 
+<inline classes="custom">
+interpreted text 
+..role:: custom(emphasis)
+:custom:`text`			
