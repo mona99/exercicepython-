@@ -1,14 +1,16 @@
-#-*-coding:utf-8 -*-
-def speed():
-    temps= 6.892
-    distance= 19.7
-    return  distance/temps 
 
-def affiche(vitesse):
-    print("vitesse=",  vitesse)
+#-*-coding:utf-8 -*-
+
+def speed(distance,temps):
+     return distance/temps
+distance = float(input("entrer la distance : "))
+temps = float(input("entrer le temps : "))
+def display(vitesse):
+    """Display  is a function used to show the result"""
+    print("vitesse=", vitesse)
 
 def main():
-    stockage=speed()
-    affiche(stockage)
+    """This function is used to execute the program"""
+    stockage = speed(distance,temps)
+    display(stockage)
 main()
-
