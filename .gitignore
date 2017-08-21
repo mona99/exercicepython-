@@ -1,2 +1,7 @@
+# Temporary Python files
 .cache/
 *.pyc
+
+# Temporary files of Vi
+*.swo 
+*.swp
