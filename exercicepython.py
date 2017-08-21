@@ -21,4 +21,7 @@ def main():
     time = float(input("Enter the time: "))
     stockage = speed(distance, time)
     display(stockage)
-main()
+
+
+if __name__ == '__main__':
+    main()
