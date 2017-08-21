@@ -1,16 +1,24 @@
 #-*-coding:utf-8 -*-
-""" this program is a speed calculator"""
-def speed(distance, temps):
-    """ This function will calulate the speed"""
-    return distance/temps
+"""This program is a speed calculator"""
+
+
+def speed(distance, time):
+    """This function will calulate the speed"""
+
+    return distance/time
+
+
 def display(vitesse):
-    """ Display is used to show the result"""
+    """Display is used to show the result"""
 
     print("vitesse=", vitesse)
+
+
 def main():
-    """local function"""
-    distance = float(input("entrer la distance : "))
-    temps = float(input("entrer le temps : "))
-    stockage = speed(distance, temps)
+    """Main script function"""
+
+    distance = float(input("Enter the distance:  "))
+    time = float(input("Enter the time: "))
+    stockage = speed(distance, time)
     display(stockage)
 main()
