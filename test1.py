@@ -1,7 +1,8 @@
 #-*-coding:utf-8 -*-
-def func(x):
-    return x + 1
+from unnecessary_math import multiply
 
-def test_answer():
-    assert func(3) == 5
+def test_number_3_4():
+    assert multiply(3,4) == 12
 
+def test_string_a_3():
+    assert multiply('a',3) == 'aaa'
